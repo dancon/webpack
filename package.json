@@ -1,0 +1,30 @@
+{
+  "name": "fake-webpack",
+  "version": "1.0.1",
+  "description": "a fake webpack for learning",
+  "main": "index.js",
+  "files": [
+    "./bin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "echo \"this is start before start command\"",
+    "start": "node ./scripts/start.js",
+    "poststart": "echo \"this is start after start command\"",
+    "test:commit": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancon/webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "yargs"
+  ],
+  "author": "JohnHou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dancon/webpack/issues"
+  },
+  "homepage": "https://github.com/dancon/webpack#readme"
+}
