@@ -1,6 +1,6 @@
 {
   "name": "fake-webpack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a fake webpack for learning",
   "main": "index.js",
   "scripts": {
