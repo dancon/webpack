@@ -4,7 +4,7 @@
   "description": "a fake webpack for learning",
   "main": "index.js",
   "files": [
-    "./bin"
+    "./libs"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

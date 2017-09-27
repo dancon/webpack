@@ -1,0 +1,1 @@
+console.log('this is a fake webpack just for study')
