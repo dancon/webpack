@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/dancon/webpack/issues"
   },
-  "homepage": "https://github.com/dancon/webpack#readme"
+  "homepage": "https://github.com/dancon/webpack#readme",
+  "dependencies": {
+    "yargs": "^9.0.1"
+  },
+  "bin": {
+    "fwebpack": "./bin/webpack.js"
+  }
 }
