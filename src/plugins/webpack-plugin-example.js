@@ -6,6 +6,9 @@
 
 class WebpackPluginExample {
   apply (compiler) {
+    compiler.hooks.entryOption.tap('example plugin', () => {
+      console.log('entryOption')
+    })
     compiler.hooks.emit.tapAsync('hello world webpack plugin', (compilation, callback) => {
       console.log('This is an example webpack plugin.')
       let filelist = '# In this build:\n\n'
