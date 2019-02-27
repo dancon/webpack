@@ -4,7 +4,7 @@ const myCar = new Car()
 
 myCar.hooks.accelerate.intercept({
   call: speed => {
-    console.log('Car accelerate hook is called')
+    console.log('Car accelerate hook is called', speed)
   },
   tap: (tapinfo) => {
     console.log('tap a plugin for accelerate hook', JSON.stringify(tapinfo, null, '  '))
